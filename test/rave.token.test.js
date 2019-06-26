@@ -51,7 +51,7 @@ describe("#Rave Token Card Charge Test", function(){
             }).catch(err => {
                 done(err);
             })
-    });
+        });
 
         it("should return a pending validation response", function(done){
             this.timeout(10000);
